@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.tela {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.tela-inicial {
+  background: linear-gradient(135deg, #eaf4ff, #f7fbff);
+}
+
+.card-inicial {
+  background-color: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 30px;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.titulo-inicial {
+  margin: 0 0 16px;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.texto-inicial {
+  margin: 0 0 24px;
+  font-size: 1rem;
+  color: #5f6c7b;
+}
+
+.botao-principal {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.botao-principal:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
